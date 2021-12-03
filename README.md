@@ -10,7 +10,7 @@ Delly GitHub repository [here](https://github.com/dellytools/delly)
 # Version
 | Tool | Version |
 |------|---------|
-|Delly| 0.8.7|
+|Delly| 0.9.1|
 
 
 ---
@@ -21,3 +21,19 @@ Delly GitHub repository [here](https://github.com/dellytools/delly)
 DELLY: structural variant discovery by integrated paired-end and split-read analysis.
 Bioinformatics. 2012 Sep 15;28(18):i333-i339.
 https://doi.org/10.1093/bioinformatics/bts378
+
+---
+
+## License
+
+Author: 'Timothy Sanders', 'Yu Pan'
+
+docker-delly is licensed under the GNU General Public License version 2. See the file LICENSE for the terms of the GNU GPL license.
+
+docker-delly can be used to create a docker instance to use the Delly tool. 
+
+Copyright (C) 2021 University of California Los Angeles ("Boutros Lab") All rights reserved.
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
