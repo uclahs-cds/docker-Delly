@@ -1,10 +1,10 @@
 ---
 Category: 'docker'
 Description: 'Docker repository for Delly'
-Maintainers: ['tsanders@mednet.ucla.edu']
-Contributors: 'Timothy Sanders'
+Maintainers: ['yupan@mednet.ucla.edu']
+Contributors: ['Timothy Sanders', 'Yu Pan']
 Languages: ['bash']
 Tools: ['Delly']
-Version: ['0.8.7']
+Version: ['0.9.1']
 Dependencies: ['docker', 'conda', 'bl-base']
 References: 'https://github.com/dellytools/delly'
