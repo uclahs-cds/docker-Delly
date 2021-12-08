@@ -3,8 +3,8 @@ Category: 'docker'
 Description: 'Docker repository for Delly'
 Maintainers: ['yupan@mednet.ucla.edu']
 Contributors: ['Timothy Sanders', 'Yu Pan']
-Languages: ['bash']
+Languages: ['Dockerfile']
 Tools: ['Delly']
 Version: ['0.9.1']
-Dependencies: ['docker', 'conda', 'bl-base']
+Purpose of tool: 'Delly is an integrated structural variant (SV) prediction method that can discover, genotype and visualize deletions, tandem duplications, inversions and translocations at single-nucleotide resolution in short-read massively parallel sequencing data.'
 References: 'https://github.com/dellytools/delly'
