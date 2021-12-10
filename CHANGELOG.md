@@ -7,6 +7,17 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ---
 
-## [1.0.0] - 2021-04-29
+## [0.9.1] - 2021-12-06
 ### Added
-- Migrated Delly dockerfile to its own repository
+- Add docker PR template
+- Add GPL2
+
+### Changed
+- Upgrade Delly version from 0.8.7 to 0.9.1
+- Upgrade blcdsdockerregistry/bl-base from 1.0.0 to 1.1.0 
+
+---
+
+## [0.8.7] - 2021-04-29
+### Added
+- Migrate Delly dockerfile to its own repository
