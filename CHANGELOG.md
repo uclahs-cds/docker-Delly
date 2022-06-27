@@ -7,6 +7,12 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ---
 
+## [Unreleased]
+### Changed
+- Upgrade Delly version from 0.9.1 to 1.0.3
+
+---
+
 ## [0.9.1] - 2021-12-06
 ### Added
 - Add docker PR template
