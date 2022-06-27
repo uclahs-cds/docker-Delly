@@ -7,7 +7,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ---
 
-## [Unreleased - 1.0.3] - 2022-06-27
+## [Unreleased]
 ### Changed
 - Upgrade Delly version from 0.9.1 to 1.0.3
 
