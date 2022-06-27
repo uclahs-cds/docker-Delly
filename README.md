@@ -10,7 +10,7 @@ Delly GitHub repository [here](https://github.com/dellytools/delly)
 # Version
 | Tool | Version |
 |------|---------|
-|Delly| 0.9.1|
+|Delly| 1.0.3|
 
 
 ---
@@ -26,7 +26,7 @@ https://doi.org/10.1093/bioinformatics/bts378
 
 ## License
 
-Author: 'Timothy Sanders', 'Yu Pan'
+Author: 'Timothy Sanders', 'Yu Pan', 'Mohammed Faizal Eeman Mootor'
 
 docker-delly is licensed under the GNU General Public License version 2. See the file LICENSE for the terms of the GNU GPL license.
 
