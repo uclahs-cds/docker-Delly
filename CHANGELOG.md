@@ -10,6 +10,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ## [Unreleased]
 ### Changed
 - Upgrade Delly version from 0.9.1 to 1.0.3
+- Added BLUSER in the Dockerfile to avoid using root as default while building the image
 
 ---
 
