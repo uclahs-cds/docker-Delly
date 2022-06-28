@@ -9,7 +9,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased]
 ### Added
-- Added BLUSER in the Dockerfile to avoid using root as default while building the image
+- Add 'bldocker' as user in the Dockerfile to avoid using root as default
 
 ---
 
