@@ -8,6 +8,12 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ---
 
 ## [Unreleased]
+### Added
+- Add 'bldocker' as user in the Dockerfile to avoid using root as default
+
+---
+
+## [1.0.3] - 2022-06-27
 ### Changed
 - Upgrade Delly version from 0.9.1 to 1.0.3
 
