@@ -11,7 +11,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ---
 
-### [1.1.3] - 2022-08-03
+## [1.1.3] - 2022-08-03
 ### Changed
 - Replace `conda` with `mamba` in Dockerfile based on the BL Docker Template
 - Update Delly v1.1.3 in Dockerfile
