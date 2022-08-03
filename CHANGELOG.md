@@ -8,6 +8,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ---
 
 ## [Unreleased]
+### Changed
+- Replace `conda` with `mamba` in Dockerfile based on the BL Docker Template
 
 ---
 
