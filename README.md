@@ -10,7 +10,7 @@ Delly GitHub repository [here](https://github.com/dellytools/delly)
 # Version
 | Tool | Version |
 |------|---------|
-|Delly| 1.0.3|
+|Delly| 1.1.3|
 
 
 ---
