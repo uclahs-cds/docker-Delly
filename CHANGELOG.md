@@ -8,7 +8,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ---
 
 ## [Unreleased]
-
+### Changed
+- Update Delly v1.1.5 in Dockerfile
 ---
 
 ## [1.1.3] - 2022-08-03
