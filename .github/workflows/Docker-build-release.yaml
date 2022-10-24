@@ -28,7 +28,7 @@ jobs:
         uses: KJ002/read-yaml@1.6
         with:
           file: "${{ env.METADATA_FILE }}"
-          key-path: '["Image_name"]'
+          key-path: '["image_name"]'
 
       - name: Create tags
         id: meta
