@@ -1,7 +1,7 @@
-# docker-delly
+# docker-Delly
 Repository for the Boutros Lab Delly Dockerfile, "an integrated structural variant (SV) prediction method that can discover, genotype and visualize deletions, tandem duplications, inversions and translocations at single-nucleotide resolution in short-read massively parallel sequencing data."
 
-The image is located in the Boutros Lab Docker Hub repo: https://hub.docker.com/repository/docker/blcdsdockerregistry/delly
+This image can be found in docker-Delly's GitHub package page [here](https://github.com/uclahs-cds/docker-Delly/pkgs/container/delly).
 
 # Documentation
 Delly GitHub repository [here](https://github.com/dellytools/delly)
@@ -10,7 +10,7 @@ Delly GitHub repository [here](https://github.com/dellytools/delly)
 # Version
 | Tool | Version |
 |------|---------|
-|Delly| 1.1.3|
+|Delly| 1.1.5|
 
 
 ---
@@ -28,9 +28,9 @@ https://doi.org/10.1093/bioinformatics/bts378
 
 Author: 'Timothy Sanders', 'Yu Pan', 'Mohammed Faizal Eeman Mootor'
 
-docker-delly is licensed under the GNU General Public License version 2. See the file LICENSE for the terms of the GNU GPL license.
+docker-Delly is licensed under the GNU General Public License version 2. See the file LICENSE for the terms of the GNU GPL license.
 
-docker-delly can be used to create a docker instance to use the Delly tool. 
+docker-Delly can be used to create a docker instance to use the Delly tool. 
 
 Copyright (C) 2021-2022 University of California Los Angeles ("Boutros Lab") All rights reserved.
 
