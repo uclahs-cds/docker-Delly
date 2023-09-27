@@ -12,6 +12,19 @@ Delly GitHub repository [here](https://github.com/dellytools/delly)
 |------|---------|
 |Delly| 1.1.7|
 
+---
+
+## Discussions
+
+- [Issue tracker](https://github.com/uclahs-cds/docker-Delly/issues) to report errors and enhancement ideas.
+- Discussions can take place in [docker-Delly Discussions](https://github.com/uclahs-cds/docker-Delly/discussions)
+- [docker-Delly pull requests](https://github.com/uclahs-cds/docker-Delly/pulls) are also open for discussion
+
+---
+
+## Contributors
+
+Please see list of [Contributors](https://github.com/uclahs-cds/docker-Delly/graphs/contributors) at GitHub.
 
 ---
 
