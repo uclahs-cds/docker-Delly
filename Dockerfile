@@ -10,7 +10,7 @@ RUN mamba create -qy -p /usr/local \
     delly==${DELLY_VERSION}
 
 # Deploy the target tools into a base image
-FROM ubuntu:20.04
+FROM ubuntu:20.04.3
 COPY --from=builder /usr/local /usr/local
 
 # Add a new user/group called bldocker
