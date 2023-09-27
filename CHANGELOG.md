@@ -13,6 +13,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Update Ubuntu `v20.04` to `v20.04.3`
 
 ### Added
+- Add `Discussions` and `Contributors` to `README.md`
 - Add image source link to `LABEL`
 - Add `condaforge/mambaforge` as builder
 
