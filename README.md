@@ -10,7 +10,7 @@ Delly GitHub repository [here](https://github.com/dellytools/delly)
 # Version
 | Tool | Version |
 |------|---------|
-|Delly| 1.1.5|
+|Delly| 1.1.7|
 
 
 ---
@@ -30,9 +30,9 @@ Author: 'Timothy Sanders', 'Yu Pan', 'Mohammed Faizal Eeman Mootor'
 
 docker-Delly is licensed under the GNU General Public License version 2. See the file LICENSE for the terms of the GNU GPL license.
 
-docker-Delly can be used to create a docker instance to use the Delly tool. 
+docker-Delly can be used to create a docker instance to use the Delly tool.
 
-Copyright (C) 2021-2022 University of California Los Angeles ("Boutros Lab") All rights reserved.
+Copyright (C) 2021-2023 University of California Los Angeles ("Boutros Lab") All rights reserved.
 
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 
