@@ -1,4 +1,5 @@
 ARG MINIFORGE_VERSION=23.3.1-1
+ARG UBUNTU_VERSION=20.04.3
 
 FROM condaforge/mambaforge:${MINIFORGE_VERSION} AS builder
 
@@ -10,7 +11,7 @@ RUN mamba create -qy -p /usr/local \
     delly==${DELLY_VERSION}
 
 # Deploy the target tools into a base image
-FROM ubuntu:20.04.3
+FROM ubuntu:${UBUNTU_VERSION} AS final
 COPY --from=builder /usr/local /usr/local
 
 # Add a new user/group called bldocker
