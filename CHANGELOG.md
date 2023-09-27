@@ -8,6 +8,16 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ---
 
 ## [Unreleased]
+### Changed
+- Update Delly `v1.1.5` to `v1.1.7`
+- Update Ubuntu `v20.04` to `v20.04.3`
+
+### Added
+- Add image source link to `LABEL`
+- Add `condaforge/mambaforge` as builder
+
+### Removed
+- Remove `blcdsdockerregistry/bl-base` as builder
 
 ---
 
@@ -44,7 +54,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### Changed
 - Upgrade Delly version from 0.8.7 to 0.9.1
-- Upgrade blcdsdockerregistry/bl-base from 1.0.0 to 1.1.0 
+- Upgrade blcdsdockerregistry/bl-base from 1.0.0 to 1.1.0
 
 ---
 
