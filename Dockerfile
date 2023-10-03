@@ -1,6 +1,4 @@
 ARG MINIFORGE_VERSION=23.3.1-1
-ARG UBUNTU_VERSION=23.10
-
 FROM condaforge/mambaforge:${MINIFORGE_VERSION} AS builder
 
 # Use conda to install tools and dependencies into /usr/local
@@ -11,7 +9,7 @@ RUN mamba create -qy -p /usr/local \
     delly==${DELLY_VERSION}
 
 # Deploy the target tools into a base image
-FROM ubuntu:${UBUNTU_VERSION} AS final
+FROM ubuntu:20.04
 COPY --from=builder /usr/local /usr/local
 
 # Add a new user/group called bldocker
@@ -21,5 +19,4 @@ RUN groupadd -g 500001 bldocker && \
 # Change the default user to bldocker from root
 USER bldocker
 
-LABEL maintainer="Mohammed Faizal Eeman Mootor <mmootor@mednet.ucla.edu>" \
-      org.opencontainers.image.source=https://github.com/uclahs-cds/docker-Delly
+LABEL maintainer="Mohammed Faizal Eeman Mootor <mmootor@mednet.ucla.edu>"
