@@ -9,13 +9,16 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased]
 ### Changed
-- Update DELLY to v1.1.7
+- Update Delly `v1.1.5` to `v1.1.7`
+- Update Ubuntu `v20.04` to `v23.10`
 
 ### Added
-- Add mambaforge as builder
+- Add `Discussions` and `Contributors` to `README.md`
+- Add image source link to `LABEL`
+- Add `condaforge/mambaforge` as builder
 
 ### Removed
-- Remove `bl-base` as builder
+- Remove `blcdsdockerregistry/bl-base` as builder
 
 ---
 
