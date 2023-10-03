@@ -1,7 +1,8 @@
-FROM blcdsdockerregistry/bl-base:1.1.0 AS builder
+ARG MINIFORGE_VERSION=23.3.1-1
+FROM condaforge/mambaforge:${MINIFORGE_VERSION} AS builder
 
 # Use conda to install tools and dependencies into /usr/local
-ARG DELLY_VERSION=1.1.5
+ARG DELLY_VERSION=1.1.7
 RUN mamba create -qy -p /usr/local \
     -c bioconda \
     -c conda-forge \

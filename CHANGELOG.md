@@ -8,6 +8,14 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ---
 
 ## [Unreleased]
+### Changed
+- Update DELLY to v1.1.7
+
+### Added
+- Add mambaforge as builder
+
+### Removed
+- Remove `bl-base` as builder
 
 ---
 
@@ -44,7 +52,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### Changed
 - Upgrade Delly version from 0.8.7 to 0.9.1
-- Upgrade blcdsdockerregistry/bl-base from 1.0.0 to 1.1.0 
+- Upgrade blcdsdockerregistry/bl-base from 1.0.0 to 1.1.0
 
 ---
 
