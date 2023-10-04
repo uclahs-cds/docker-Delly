@@ -8,6 +8,10 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ---
 
 ## [Unreleased]
+
+---
+
+## [1.1.7] - 2023-10-04
 ### Changed
 - Update Delly `v1.1.5` to `v1.1.7`
 - Update Ubuntu `v20.04` to `v23.04`
