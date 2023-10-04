@@ -10,7 +10,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ## [Unreleased]
 ### Changed
 - Update Delly `v1.1.5` to `v1.1.7`
-- Update Ubuntu `v20.04` to `v23.10`
+- Update Ubuntu `v20.04` to `v23.04`
 
 ### Added
 - Add `Discussions` and `Contributors` to `README.md`
