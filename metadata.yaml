@@ -4,7 +4,7 @@ description: 'Docker repository for Delly'
 maintainers: ['yupan@mednet.ucla.edu', 'mmootor@mednet.ucla.edu']
 languages: ['Dockerfile']
 tools: ['Delly']
-version: ['1.2.9']
+version: ['1.3.1']
 purpose: 'Delly is an integrated structural variant (SV) prediction method that can discover, genotype and visualize deletions, tandem duplications, inversions and translocations at single-nucleotide resolution in short-read massively parallel sequencing data.'
 references: 'https://github.com/dellytools/delly'
 image_name: 'delly'
