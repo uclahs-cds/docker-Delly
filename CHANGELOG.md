@@ -10,6 +10,12 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ## [Unreleased]
 
 ---
+## [1.3.1] - 2025-01-15
+### Changed
+- Update Delly `v1.2.9` to `v1.3.1`
+- Update Ubuntu `v24.04`
+
+---
 ## [1.2.9] - 2024-09-25
 ### Changed
 - Update Delly `v1.2.8` to `v1.2.9`
