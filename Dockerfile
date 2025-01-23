@@ -4,11 +4,8 @@ ARG UBUNTU_VERSION=24.04
 FROM condaforge/mambaforge:${MINIFORGE_VERSION} AS builder
 
 # Use conda to install tools and dependencies into /usr/local
-<<<<<<< HEAD
 ARG DELLY_VERSION=1.3.3
-=======
-ARG DELLY_VERSION=1.3.2
->>>>>>> origin
+
 RUN mamba create -qy -p /usr/local \
     -c bioconda \
     -c conda-forge \
