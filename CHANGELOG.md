@@ -10,6 +10,11 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ## [Unreleased]
 
 ---
+## [1.3.3] - 2025-01-17
+### Changed
+- Update Delly `v1.3.2` to `v1.3.3`
+
+---
 ## [1.3.2] - 2025-01-16
 ### Changed
 - Update Delly `v1.3.1` to `v1.3.2`
