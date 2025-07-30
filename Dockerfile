@@ -1,4 +1,5 @@
 ARG MINIFORGE_VERSION=24.9.2-0
+ARG UBUNTU_VERSION=25.04
 
 FROM condaforge/mambaforge:${MINIFORGE_VERSION} AS builder
 
@@ -10,6 +11,7 @@ RUN mamba create -qy -p /usr/local \
     -c conda-forge \
     delly==${DELLY_VERSION}
 
+FROM ubuntu:${UBUNTU_VERSION} AS final
 COPY --from=builder /usr/local /usr/local
 
 # Add a new user/group called bldocker
