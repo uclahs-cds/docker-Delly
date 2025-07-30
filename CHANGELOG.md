@@ -13,6 +13,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ## [1.5.0] - 2025-07-30
 ### Changed
 - Update Delly `v1.3.3` to `v1.5.0`
+- Update miniforge version to `v24.9.2-0`
+- Remove Ubuntu layer
 
 ---
 ## [1.3.3] - 2025-01-17
