@@ -1,17 +1,16 @@
-ARG MINIFORGE_VERSION=23.3.1-1
-ARG UBUNTU_VERSION=24.04
+ARG MINIFORGE_VERSION=24.9.2-0
+ARG UBUNTU_VERSION=25.04
 
 FROM condaforge/mambaforge:${MINIFORGE_VERSION} AS builder
 
 # Use conda to install tools and dependencies into /usr/local
-ARG DELLY_VERSION=1.3.3
+ARG DELLY_VERSION=1.5.0
 
 RUN mamba create -qy -p /usr/local \
     -c bioconda \
     -c conda-forge \
     delly==${DELLY_VERSION}
 
-# Deploy the target tools into a base image
 FROM ubuntu:${UBUNTU_VERSION} AS final
 COPY --from=builder /usr/local /usr/local
 
